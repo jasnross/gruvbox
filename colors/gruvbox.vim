@@ -1391,3 +1391,18 @@ endfunction
 " }}}
 
 " vim: set sw=2 ts=2 sts=2 et tw=80 ft=vim fdm=marker:
+
+" JasonR Extensions: {{{
+
+" Better Visual mode colors
+call s:HL('Visual',    s:none,  s:bg1)
+
+" Arguments: group, guifg, guibg, gui, guisp
+
+" Better diff colors
+call s:HL('DiffDelete', s:none, s:bg2)
+call s:HL('DiffAdd',    s:none, s:bg2)
+call s:HL('DiffChange', s:none, s:bg2)
+call s:HL('DiffText',   s:none, s:bg3)
+
+" }}}
